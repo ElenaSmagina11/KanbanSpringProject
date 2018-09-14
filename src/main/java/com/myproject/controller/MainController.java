@@ -1,7 +1,9 @@
 package com.myproject.controller;
 
 import java.util.ArrayList;
+
 import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.stereotype.Controller;
@@ -33,7 +35,6 @@ import com.myproject.model.EmployerInfo;
 import com.myproject.model.KanbanInfo;
 import com.myproject.model.PaginationResult;
 import com.myproject.validator.AccountInfoValidator;
-
 import com.myproject.validator.DeveloperInfoValidator;
 import com.myproject.validator.EmployerInfoValidator;
 import com.myproject.validator.KanbanInfoValidator;
@@ -69,6 +70,10 @@ public class MainController {
 		return "index";
 	}
 
+	@RequestMapping("/toDo")
+	public String toDo() {
+		return "toDo";
+	}
 	// NEW ACCOUNT
 	@RequestMapping(value = { "/account" }, method = RequestMethod.GET)
 	public String account(Model model,
