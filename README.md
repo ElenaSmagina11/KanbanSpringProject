@@ -13,7 +13,7 @@ als auch jobsuchende Softwareentwickler einen Bewerbungsablauf verwalten koennen
  oder Kandidaten auswaehlen und ihre Informationen in die Datenbank speichern und ggf. bearbeiten.
  Es werden folgende Prozessstufen einer Bewerbung beruecksichtigt: 
 	- wann wurden Bewerbungsunterlagen abgeschickt/eingegangen;
-	- Termin des BewerbungsgesprÃ¤chs;
+	- Termin des Bewerbungsgespraechs;
     - seit wann wartet der Bewerber auf das Ergebnis;
 	- Zusage/Absage.
 	
