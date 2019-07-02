@@ -194,7 +194,7 @@
  
  
     <build>
-        <finalName>SpringMVCAnnotationShoppingCart</finalName>
+        <finalName>KanbanSpringProjekct</finalName>
         <plugins>
  
             <!-- Config: Maven Tomcat Plugin -->

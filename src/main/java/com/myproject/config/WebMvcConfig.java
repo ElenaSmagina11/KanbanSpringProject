@@ -1,5 +1,7 @@
 package com.myproject.config;
 
+//<context:component-scanpackage com.myproject.config;
+
 import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.List;
