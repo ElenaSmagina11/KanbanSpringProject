@@ -194,7 +194,7 @@
  
  
     <build>
-        <finalName>KanbanSpringProjekct</finalName>
+        <finalName>KanbanSpringProject</finalName>
         <plugins>
  
             <!-- Config: Maven Tomcat Plugin -->
