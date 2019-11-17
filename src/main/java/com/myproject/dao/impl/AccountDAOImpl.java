@@ -33,9 +33,7 @@ public class AccountDAOImpl implements AccountDAO {
 			return null;
 		}
 		return new AccountInfo(account.getUserName(), account.getIsActive(),
-				account.getPassword(), account.getUserRole());// /naschet
-																// getPasswword
-																// ne uverena!!
+				account.getPassword(), account.getUserRole());a!!
 	}
 
 	@Override
