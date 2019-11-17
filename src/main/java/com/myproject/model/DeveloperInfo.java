@@ -24,8 +24,6 @@ public class DeveloperInfo {
         this.devJob = Developers.getDevJob();
     }
  
-    // Không thay đổi Constructor này,
-    // nó được sử dụng trong Hibernate query.
     public DeveloperInfo(String devName, String devCity, String devJob) {
         this.devName = devName;
         this.devCity = devCity;
