@@ -25,8 +25,7 @@ public class AccountInfo {
         this.userRole = account.getUserRole();
     }
  
-    // Không thay đổi Constructor này,
-    // nó được sử dụng trong Hibernate query.
+   
     public AccountInfo(String userName, boolean active, String password,String userRole) {
         this.userName= userName;
         this.active = active;
